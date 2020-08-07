@@ -1,3 +1,4 @@
+# Change parameters of model
 target_update_interval = 1000
 alpha = .1
 experience_buffer_size = 2000
