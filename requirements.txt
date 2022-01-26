@@ -1,6 +1,6 @@
 Keras==2.3.1
 matplotlib==3.2.1
-numpy==1.18.4
+numpy==1.21.0
 opencv-python==4.2.0.34
 pandas==1.0.4
 scikit-learn==0.23.1
