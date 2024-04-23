@@ -20,6 +20,7 @@ from utils import *
 from config import *
 
 HUBER_DELTA = 1.0
+
 def smoothL1(y_true, y_pred):
     x = K.abs(y_true - y_pred)
     x = tf.where(x < HUBER_DELTA, 0.5 * x ** 2, HUBER_DELTA * (x - 0.5 * HUBER_DELTA))
